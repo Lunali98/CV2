@@ -4,6 +4,29 @@
     <meta charset="UTF-8">
     <title>Bulavkin Danila's Resume</title>
     <style>
+         body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+
+            background: linear-gradient(-45deg, rgba(113, 185, 41, 0.87), rgba(219, 250, 109, 0.67), #FFFFFF);
+            background-size: 400% 400%;
+            animation: gradient 10s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0 50%;
+            }
+        }
         img {
             width: 150px;
         }
@@ -16,7 +39,8 @@ width: 30px;
         }
     </style>
 </head>
-<body background="Images/background.png">
+<body>
+<div class="wrapper"></div>
 <hr color="black" width="850" align="left">
 <img src="./Images/Photo.jpg" align="right" alt="Avatar" class="photo">
  <h1>Bulavkin Danila's Resume</h1>
